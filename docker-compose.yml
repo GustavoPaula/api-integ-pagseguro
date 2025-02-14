@@ -1,7 +1,7 @@
 services:
-  mysql:
+  api-integ-pagseguro-mysql:
     image: mysql:8.0.34
-    container_name: mysql
+    container_name: api-integ-pagseguro-mysql
     restart: always
     environment:
       - MYSQL_DATABASE=${DB_DATABASE}
